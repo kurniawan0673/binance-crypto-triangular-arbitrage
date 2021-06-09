@@ -2,7 +2,7 @@ import Decimal from 'decimal.js';
 
 import { getMarketsData, getTickersData } from './exchange';
 
-export default async function createProfitFunc(BASE_USD_BUDGET = 100, FEE = '0.00075') {
+export default async function createProfitFunc(BASE_USD_BUDGET = 100, FEE = '0.076') {
   const tickers = await getTickersData();
   const marketsData = await getMarketsData();
 
